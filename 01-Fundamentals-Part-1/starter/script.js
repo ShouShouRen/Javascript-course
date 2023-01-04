@@ -138,22 +138,46 @@
 //     multiple \n\
 //     lines');
 // console.log(`String with
-// multiple 
+// multiple
 // lines`);
 
-const age = 15;
+// const age = 15;
 
-if (age >= 18) {
-    console.log('Sarah can start driving license');
-} else {
-    const yearsLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years:)`);
-}
+// if (age >= 18) {
+//     console.log('Sarah can start driving license');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years:)`);
+// }
 
-const birthYear = 1991;
-if (birthYear <= 2000) {
-    var century = 20;
+// const birthYear = 1991;
+// if (birthYear <= 2000) {
+//     var century = 20;
+// } else {
+//     var century = 21;
+// }
+// console.log(century);
+
+
+
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+console.log(`BMIMark ${BMIMark}, BMIJohn ${BMIJohn}`);
+
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
 } else {
-    var century = 21;
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's! (${BMIMark})`)
 }
-console.log(century);
