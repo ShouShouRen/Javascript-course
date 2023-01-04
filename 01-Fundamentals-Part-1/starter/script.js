@@ -216,23 +216,29 @@
 //     console.log("You should get a job!");
 // }
 
-const age = '18';
-if (age === 18) console.log("You should became an adult:D")
+// const age = '18';
+// if (age === 18) console.log("You should became an adult:D")
 
-if (age == 18) console.log("You should became an adult:D(lose)")
+// if (age == 18) console.log("You should became an adult:D(lose)")
 
-const favourit = Number(prompt("What's your favourite number?"));
-console.log(favourit);
-console.log(typeof favourit);
+// const favourit = Number(prompt("What's your favourite number?"));
+// console.log(favourit);
+// console.log(typeof favourit);
 
-if (favourit === 23) {
-    console.log('Coll! 23 is an amazing number!');
-} else if (favourit === 7) {
-    console.log('Coll! 7 is an amazing number!');
-} else if (favourit === 9) {
-    console.log('Coll! 9 is an amazing number!');
-} else {
-    console.log('Number is not 23 or 7 or 9');
-}
+// if (favourit === 23) {
+//     console.log('Coll! 23 is an amazing number!');
+// } else if (favourit === 7) {
+//     console.log('Coll! 7 is an amazing number!');
+// } else if (favourit === 9) {
+//     console.log('Coll! 9 is an amazing number!');
+// } else {
+//     console.log('Number is not 23 or 7 or 9');
+// }
 
-if (favourit !== 23) console.log('Why not 23?');
+// if (favourit !== 23) console.log('Why not 23?');
+
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
